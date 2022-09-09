@@ -4,4 +4,4 @@ Simulação de Projeto Colaborativo
 ## Grupo 3
 - Felipe Freitas
 - Luiza Heller
-- 
+- Lucas S. Wolschick
