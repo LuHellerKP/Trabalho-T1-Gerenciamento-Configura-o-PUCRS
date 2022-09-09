@@ -5,3 +5,6 @@ Simulação de Projeto Colaborativo
 - Felipe Freitas
 - Luiza Heller
 - Lucas S. Wolschick
+
+## Link para atividade no beecrowd
+[Enunciado 2309 - Truco](https://www.beecrowd.com.br/judge/en/problems/view/2309)
