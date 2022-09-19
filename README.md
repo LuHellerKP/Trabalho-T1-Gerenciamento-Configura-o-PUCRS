@@ -7,4 +7,4 @@ Simulação de Projeto Colaborativo
 - Lucas S. Wolschick
 
 ## Link para atividade no beecrowd
-<a href="https://www.beecrowd.com.br/judge/en/problems/view/2309" target="_blank">Enunciado 2309 - Truco</a>
+[Enunciado 2309 - Truco](https://www.beecrowd.com.br/judge/en/problems/view/2309)
