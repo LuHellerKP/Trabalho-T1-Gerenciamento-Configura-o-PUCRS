@@ -1,6 +1,13 @@
 # Trabalho-T1-Gerenciamento-Configura-o-PUCRS
 Simulação de Projeto Colaborativo
 
+# Como clonar o projeto:
+```
+git clone https://github.com/LuHellerKP/Trabalho-T1-Gerenciamento-Configura-o-PUCRS.git
+mvn package
+java -jar target/*.jar
+```
+
 ## Grupo 3
 - Felipe Freitas
 - Luiza Heller
