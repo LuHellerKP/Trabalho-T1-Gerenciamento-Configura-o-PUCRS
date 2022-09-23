@@ -1,6 +1,9 @@
 # Trabalho-T1-Gerenciamento-Configura-o-PUCRS
 Simulação de Projeto Colaborativo
 
+# Como clonar o projeto:
+
+
 ## Grupo 3
 - Felipe Freitas
 - Luiza Heller
