@@ -1,16 +1,24 @@
+package beetask;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) throws FileNotFoundException {
+		String pathname = (((args == null) || (args.length == 0)) ? "fiveMatches.txt" : args[0]);
+		getResults(pathname);
+	}
+
+	public static int[] getResults(String pathname) throws FileNotFoundException {
 		// Beecrowd line:
 		// Scanner input = new Scanner(System.in);
-		// Local Testing Line:
-		Scanner input = new Scanner(new File("entry.txt"));
+		// Local Testing Lines (following two):
+		pathname = (((pathname == null) || (pathname.length() == 0)) ? "fiveMatches.txt" : pathname);
+		Scanner input = new Scanner(new File(pathname));
+
 		int vitoriasAdalberto = 0;
 		int vitoriasBernadete = 0;
-
 		int partidas = Integer.parseInt(input.nextLine());
 		int decorridas = 0;
 		int a1;
@@ -19,7 +27,7 @@ public class Main {
 		int b1;
 		int b2;
 		int b3;
-		
+
 		while (partidas > decorridas) {
 			int rodadaAdalberto = 0;
 			int rodadaBernadete = 0;
@@ -120,7 +128,10 @@ public class Main {
 				vitoriasBernadete++;
 			decorridas++;
 		}
+
+		int[] results = { vitoriasAdalberto, vitoriasBernadete };
 		System.out.println(vitoriasAdalberto + " " + vitoriasBernadete);
+		return results;
 	}
 
 	private static boolean areSymbol(int a1, int a2, int a3, int b1, int b2, int b3) {
